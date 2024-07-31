@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/content": "^1.0.0",
@@ -19,6 +20,7 @@
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.8",
     "sass-loader": "10.1.1"
   }
